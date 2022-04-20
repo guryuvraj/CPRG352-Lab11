@@ -34,12 +34,10 @@ public class ForgotPasswordServlet extends HttpServlet {
          String email = request.getParameter("fEmail");
         AccountService as = new AccountService();
          String path = getServletContext().getRealPath("/WEB-INF");
-        boolean user = as.forgotPassword(email,path);
+        boolean send = as.forgotPassword(email,path);
         
             request.setAttribute("message", "If the address you entered is valid, you will receive an email very soon. Please check your email for your password");
-        
-        
-                    getServletContext().getRequestDispatcher("/WEB-INF/forgot.jsp").forward(request, response);
+         getServletContext().getRequestDispatcher("/WEB-INF/forgot.jsp").forward(request, response);
             return;
         
     }
