@@ -35,15 +35,15 @@ INSERT INTO `role` VALUES (1, 'system admin');
 INSERT INTO `role` VALUES (2, 'regular user');
 
 INSERT INTO `user` (`email`,`active`,`first_name`,`last_name`,`password`,`role`)
-	VALUES ('iamsaitstudent+admin@gmail.com', true, 'Admin','Admin', 'password', 1);
+	VALUES ('iamasaitstudent+admin@gmail.com', true, 'Admin','Admin', 'password', 1);
 INSERT INTO `user` (`email`,`active`,`first_name`,`last_name`,`password`,`role`)
-	VALUES ('iamsaitstudent+anne@gmail.com', true, 'Anne','Annerson', 'password', 2);
+	VALUES ('iamasaitstudent+anne@gmail.com', true, 'Anne','Annerson', 'password', 2);
 INSERT INTO `user` (`email`,`active`,`first_name`,`last_name`,`password`,`role`)
-	VALUES ('iamsaitstudent+barb@gmail.com', true, 'Barb','Barber', 'password', 2);
+	VALUES ('iamasaitstudent+barb@gmail.com', true, 'Barb','Barber', 'password', 2);
 
 INSERT INTO `note` (`Title`, `Contents`, `Owner`)
-    VALUES ('Quote #1', 'Writing is nature''s way of letting you know how sloppy your thinking is.', 'iamsaitstudent+anne@gmail.com');
+    VALUES ('Quote #1', 'Writing is nature''s way of letting you know how sloppy your thinking is.', 'iamasaitstudent+anne@gmail.com');
 INSERT INTO `note` (`Title`, `Contents`, `Owner`)
-    VALUES ('Another quote', '"Java is to JavaScript as ham is to hamster." -  Jeremy Keith', 'iamsaitstudent+anne@gmail.com');
+    VALUES ('Another quote', '"Java is to JavaScript as ham is to hamster." -  Jeremy Keith', 'iamasaitstudent+anne@gmail.com');
 INSERT INTO `note` (`Title`, `Contents`, `Owner`)
-    VALUES ('Barb''s Note', 'Anne should not see this note.', 'iamsaitstudent+barb@gmail.com');
+    VALUES ('Barb''s Note', 'Anne should not see this note.', 'iamasaitstudent+barb@gmail.com');

@@ -21,7 +21,7 @@
         <input type="submit" value="submit" name="but">
         </form>
         <br>
-        ${message}
+        <label>${message}</label>
         
     </body>
 </html>

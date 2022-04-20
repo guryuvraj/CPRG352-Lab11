@@ -21,8 +21,7 @@ import javax.naming.NamingException;
 public class GmailService {
 
     public static void sendMail(String to, String subject, String template, HashMap<String, String> tags) throws Exception {
-        // {{firstname}} -> Anne
-        // {{date}} -> Oct. 28
+        
         String body = "";
         try {
             // read whole template into a single variable (body)
